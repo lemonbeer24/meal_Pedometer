@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        xmlns:android = 'http://schemas.android.com/apk/res/android'
+        android:id="@+id/image_spoon"
+        android:layout_height="320dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/spoon_100"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:id="@+id/text_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:text="00 번 더 씹고 넘기세요">
+    </TextView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnup"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/icons_sort_up_48"
+            android:layout_margin="10dp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btndown"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src = "@drawable/icons8_sort_down_48"
+            android:layout_margin="10dp">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="시작하기"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp">
+    </Button>
+
+
+</LinearLayout>

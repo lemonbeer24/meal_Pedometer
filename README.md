@@ -1,5 +1,4 @@
 # 식사 만보기 - AndroidApp Term project
-## 2020 인하공전 2학년 2학기 android 프로그래밍 응용 과목 텀 프로젝트
 
 ![image](https://user-images.githubusercontent.com/53043464/210194040-a633ef53-d40c-4180-9097-458c8e38ff1c.png)
 

@@ -8,6 +8,8 @@
     android:background="@drawable/backg1"
     tools:context=".MainActivity">
 
+    <include layout="@layout/maintoolbar"/>
+
     <ImageView
         xmlns:android = 'http://schemas.android.com/apk/res/android'
         android:id="@+id/image_spoon"

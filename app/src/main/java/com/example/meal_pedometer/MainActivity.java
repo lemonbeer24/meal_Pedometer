@@ -1,7 +1,7 @@
 package com.example.meal_pedometer;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.media.Image;
 import android.media.MediaPlayer;
@@ -17,6 +17,9 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -40,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.main_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("식사 만보기");
 
         spoon_images_id = new int[]{R.drawable.spoon_100, R.drawable.spoon_half_48, R.drawable.icons_bowl_with_spoon_emt};
 
@@ -69,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu,menu);//xml 파일을 객체로 구현하는 팽창
+        //getActionBar().setTitle("asdf");
         //인자 : 메뉴 리소스 ,id 메뉴 객체
         return true;
     }
@@ -115,7 +122,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 tt.interrupt();
                 t_stop = true;
                 btn_start.setText("시작하기");
-                //btn_start.setText("시작하기");
             }
         }
 

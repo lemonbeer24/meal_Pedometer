@@ -1,7 +1,8 @@
 # 식사 만보기 - AndroidApp Term project
 
 ![image](https://user-images.githubusercontent.com/53043464/223627782-f029b48b-ccc6-4715-9153-5cf77a7411fb.png)
-![image](https://user-images.githubusercontent.com/53043464/223630076-53eb9233-300c-4361-b24d-8cd956d66ee2.png)
+![image](https://user-images.githubusercontent.com/53043464/223630148-ece7ebbc-88d1-4375-9bb9-d063468e306d.png)
+
 
 ## 프로젝트 개요
 소화불량 같은 문제가 있는 사람이 식사를 할 때 음식을 먹을 때 마다 일정 횟수이상 씹는 것을 습관화 하는 것을 도와주는 앱.
